@@ -175,3 +175,5 @@ store.commit('increment', {
 
 ## 记得去看mutations的同步和异步操作
 ## 记录一下stylus的坑：子级元素的css必须在父级元素之下(雾...)
+
+## npm run build生产环境打包的情况下记得在config/index.js更改下路径
