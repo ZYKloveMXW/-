@@ -9,7 +9,9 @@ import store from './store/store'
 import './assets/global.styl'
 import vuescroll from 'vuescroll/dist/vuescroll-slide';
 import 'vuescroll/dist/vuescroll.css';
+import axios from 'axios';
 
+Vue.prototype.$axios = axios
 Vue.use(vuescroll);
 
 Vue.config.productionTip = false;
