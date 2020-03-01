@@ -1,5 +1,6 @@
 <template>
   <div>
+    <TopGuide></TopGuide>
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -36,9 +37,11 @@
 import "swiper/css/swiper.min.css";
 import Swiper from "swiper";
 import StoreItem from "../components/StoreItem";
+import TopGuide from "../components/TopGuide"
 
 export default {
   components:{
+    TopGuide,
     StoreItem
   },
   mounted() {

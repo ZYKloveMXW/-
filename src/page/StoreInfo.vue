@@ -1,10 +1,10 @@
 <template>
   <div>
-    <van-row>
+    <van-row gutter="2" style="width: 100%">
       <van-col span="3">
         <van-icon name="arrow-left" class="header-icon" size="30px" @click="backClick()" />
       </van-col>
-      <van-col span="18">
+      <van-col span="17">
         <van-search v-model="value" placeholder="想吃什么搜一搜" shape="round" />
       </van-col>
       <van-col span="3">
